@@ -1,22 +1,30 @@
-.judul{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    padding-top: 20px;
+body {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  border-left: 3px solid;
+  border-right: 3px solid;
 }
 
-.background{
-    background-color: rgb(250, 245, 233);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+.judul {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding-top: 20px;
 }
 
-.isi{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
-    color: black;
+.background {
+  background-color: rgb(250, 245, 233);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
 }
 
-.logo{
-    size: 40cp;
+.isi {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: black;
+}
+
+.logo {
+  size: 40cp;
 }
