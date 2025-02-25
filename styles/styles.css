@@ -1,30 +1,66 @@
 body {
-  max-width: 800px;
-  padding: 20px;
-  margin: 0 auto;
-  border-left: 3px solid;
-  border-right: 3px solid;
+  margin:0;
+  padding:0;
+  background-image:url(https://wallpapers.com/images/high/manchester-united-logo-with-red-trident-hatia04fun1g1l4l.webp);
 }
 
 .judul {
-  color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
-  padding-top: 20px;
+  color: black;
+  text-align: center;
 }
 
-.background {
-  background-color: rgb(250, 245, 233);
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+.subjudul {
+  font-size: 16px;
+  text-align: center !important;
+  font-weight: 100;
+  line-height: 22px;
 }
 
-.isi {
+
+/* .textCenter {
+    text-align: center;
+} */
+
+.img {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400;
+}
+
+.list_isi li {
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 13px;
   color: black;
 }
 
-.logo {
-  size: 40cp;
+.content {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    background-color: #fff;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-right: 23px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
 }
