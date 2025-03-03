@@ -1,7 +1,11 @@
 body {
   margin:0;
   padding:0;
-  background-image:url(https://wallpapers.com/images/high/manchester-united-logo-with-red-trident-hatia04fun1g1l4l.webp);
+  /* background-image: url(https://beritanasional.com/storage/2024/08/pss-sleman-disanksi-minus-3-poin-di-liga-1-20242025-ternyata-karena-hal-ini-13082024-152727.jpg); */
+  /* background-image: url(https://img.okezone.com/infografis/2025/02/17/559/784352/cristiano-ronaldo-akan-berkunjung-ke-kupang-indonesia_qt6ozI3bbD.jpg); */
+  background-image: url("/images/background.jpg");
+  background-position:center;
+  background-size: 180px;
 }
 
 .judul {
@@ -47,6 +51,14 @@ body {
     border-left: 3px solid;
     border-right: 3px solid;
     background-color: #fff;
+}
+
+.warna_warni{
+  background-image: linear-gradient(to right, red, 
+  orange, yellow, green, blue, indigo, violet); /*to create the gradient*/
+
+  -webkit-background-clip: text; /*to specify that the gradient only applies to the text*/
+  color: transparent; /*to make the text transparent so the gradient could be seen*/
 }
 
 table {
